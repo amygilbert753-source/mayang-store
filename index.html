@@ -11,26 +11,27 @@
       height: 100%;
       font-family: "Poppins", sans-serif;
       color: white;
-      background: #0a0a0a;
+      background: url('https://i.ibb.co/FqydfxK6/download-2.jpg') no-repeat center center fixed;
+      background-size: cover;
       overflow-x: hidden;
     }
 
     header {
       text-align: center;
       padding: 60px 20px 40px;
-      background: linear-gradient(90deg, #ff0077, #ffae00);
+      background: rgba(0, 0, 0, 0.7); /* semi-transparent for readability */
       color: white;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+      border-bottom: 1px solid #222;
     }
     header h1 {
       font-size: 3rem;
       font-weight: 900;
       margin-bottom: 10px;
-      text-shadow: 0 0 25px rgba(255,255,255,0.9);
+      text-shadow: 0 0 10px rgba(255,255,255,0.6);
     }
     header p {
       font-size: 1.2rem;
-      opacity: 0.9;
+      color: #ddd;
     }
 
     .store {
@@ -41,34 +42,36 @@
     }
 
     .item {
-      background: rgba(20,20,20,0.8);
-      border-radius: 20px;
+      background: rgba(17, 17, 17, 0.85); /* semi-transparent for background image visibility */
+      border-radius: 15px;
       padding: 25px;
       text-align: center;
-      border: 2px solid rgba(255,255,255,0.08);
+      border: 1px solid #222;
       transition: all 0.35s ease;
       color: white;
     }
     .item:hover {
       transform: translateY(-8px) scale(1.05);
-      box-shadow: 0 0 25px rgba(255, 100, 150, 0.9);
+      box-shadow: 0 0 20px rgba(255,255,255,0.6);
     }
     .item img {
       width: 140px;
       height: 140px;
       object-fit: cover;
-      border-radius: 15px;
+      border-radius: 10px;
       margin-bottom: 15px;
+      border: 1px solid #333;
     }
     .item h2 {
       font-size: 1.5rem;
       font-weight: bold;
       margin: 10px 0;
+      color: #fff;
     }
     .price {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       font-weight: bold;
-      color: #00ffcc;
+      color: #ddd;
     }
     .buy-btn {
       display: inline-block;
@@ -77,25 +80,28 @@
       font-size: 1rem;
       font-weight: bold;
       color: white;
-      background: linear-gradient(90deg, #ff0077, #ffae00);
-      border-radius: 12px;
+      background: #000;
+      border: 2px solid white;
+      border-radius: 10px;
       text-decoration: none;
       transition: 0.3s;
     }
     .buy-btn:hover {
-      background: linear-gradient(90deg, #ff3b9d, #ffc107);
-      transform: scale(1.05);
+      background: white;
+      color: #000;
+      box-shadow: 0 0 15px white;
     }
 
     footer {
       text-align: center;
       padding: 20px;
-      background: #111;
-      border-top: 1px solid rgba(255,255,255,0.1);
+      background: rgba(0, 0, 0, 0.7); /* semi-transparent footer */
+      border-top: 1px solid #222;
       font-size: 1rem;
+      color: #aaa;
     }
     footer strong {
-      color: #00ffcc;
+      color: #fff;
     }
   </style>
 </head>
@@ -130,9 +136,9 @@
     </div>
 
     <div class="item">
-      <img src="https://i.ibb.co/Y7yL6WbT/tiktokio-com-DEksj-Fc8-QOt8g-GJP1ldn.jpg" alt="Mimic">
+      <img src="https://i.ibb.co/YFMMzmXm/tiktokio-com-KMCADfn-Dyu5k-X4wp-QC8r.jpg" alt="Mimic">
       <h2>Mimic</h2>
-      <p class="price">₱100</p>
+      <p class="price">₱120</p>
       <a href="https://www.facebook.com/share/1E3L6Bqzys/" target="_blank" class="buy-btn">Buy Now</a>
     </div>
 
